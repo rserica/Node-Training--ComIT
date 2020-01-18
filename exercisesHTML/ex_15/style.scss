@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Source+Sans+Pro");
+
+
+// Variables
+// Categories
+$lifestyle:#60BFAE;
+$sports: #F2C063;
+$opinion: #F26849;
+$entertainment: #F26363;
+
+
+// Background
+$main-background: #F3F3F3;
+$footer-background: #303030;
+
+// fonts
+$titles: 'Playfair Display', Serif;
+$content: 'Source Sans Pro', Sans-Serif;
+$menu-size: 12px;
+$menu-color: #303030;
+
+$featured-news-size: 20px;
+$news-size: 14px;
+$news-color: #F3F3F3;
+$news-background:black;
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: $content;
+  background: $main-background;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: $titles;
+}
+
+
+.wrapper {
+  position: relative;
+  display: block;
+  .news_info {
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+
+  .category {
+    display: block;
+    text-align: center;
+    background: pink;
+    color: #ffffff;
+  }
+  .title {
+    color: white;
+    font-size: 1.5em;
+
+  }
+
+  .featured_new {
+      .title{
+          font-size: 2em;
+      }
+      }
+  }
+}

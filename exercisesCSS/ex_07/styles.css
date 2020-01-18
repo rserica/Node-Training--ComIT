@@ -1,0 +1,22 @@
+/* Add a style element
+Select the image element inside the paragraph and set the following style:
+The image must be vertical align with the value super
+Now select the image element inside the button and set the following style:
+The image must be vertical align with the value top
+Change the image element vertical align value to bottom, then middle and on each change refresh the page to see how vertical aligment works in CSS
+Happy Coding! */
+
+p > img {
+  vertical-align: super;
+}
+
+button > img {
+  vertical-align: top;
+}
+
+.top  {
+  vertical-align: top;
+}
+
+.middle { vertical-align: middle;}
+.bottom {vertical-align: bottom;}

@@ -1,0 +1,89 @@
+<!-- Exercise 13
+Create a new folder with the name ex_13
+Create the following file structure
+/ex_13
+  |-- index.html
+index.html
+Add a Document Title: Create User
+Add a Main Title: Create User
+Add an Horizontal Rule
+Create a form element with the correct attributes depending the input types
+Create a text input with the folloging attributes:
+name: name
+placeholder: name
+Add a label for this input
+Create a select with the following configuration:
+Options:
+content: Deadpool - value: deadpool
+content: Batman v Superman - value: batman_vs_superman
+content: Captain America: Civil War - value: civil_war
+content: Doctor Strange - value: doctor_strange
+content: Suicide Squad - value: suicide_squad
+content: X-Men: Apocalypse - value: apocalypse
+content: Guardians of the Galaxy Vol 2 - value: gotg_vol2
+content: Justice League - value: justice_league
+content: Logan - value: logan
+content: Spider-Man: Homecoming - value: homecoming
+content: Wonder Woman - value: wonder_woman
+content: Thor: Ragnarok - value: thor_ragnarok
+content: Black Panther - value: black_panther
+By default select Wonder Woman
+Create a textarea so the user knows to write the bio there
+Create a file input so the user can upload a avatar image
+Create a button with the content: Clear Form
+Create a button with the content: Add new user
+Every input will have a corresponding label with the for attribute configured (choose the ids yourself) -->9
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Create User</title>
+  </head>
+  <body>
+    <h1>Create User</h1>
+    <hr>
+    <form  action="index.html" method="get">
+      <label for="name">Name: </label>
+      <input type="text" name="name" placeholder="name">
+      <br>
+      <br>
+      <label for="movies">Choose a Movie:</label>
+      <select  name="movies">
+        <option  value="deadpool">Deadpool </option>
+        <option  value="batman_vs_superman">Batman v Superman </option>
+        <option  value="civil_war">Captain America: Civil War </option>
+        <option  value="doctor_strange">Doctor Strange </option>
+        <option  value="suicide_squad">Suicide Squad </option>
+        <option  value="apocalypse">X-Men: Apocalypse </option>
+        <option  value="gotg_vol2">Guardians of the Galaxy Vol 2 </option>
+        <option  value="justice_league">Justice League </option>
+        <option  value="logan">Logan </option>
+        <option  value="homecomingr">Spider-Man: Homecoming</option>
+        <option  value="wonder_woman" selected >Wonder Woman  </option>
+        <option  value="thor_ragnarok">Thor: Ragnarok </option>
+        <option  value="black_panther"> Black Panther </option>
+      </select>
+      <br>
+      <br>
+      <label for="bio">Write your BIO here:</label>
+      <br>
+      <textarea name="bio" rows="20" cols="100" placeholder="Write here yout BIO"></textarea>
+      <br>
+      <br>
+      <br>
+      <label for="picture">Picture:/label>
+      <input type="file" name="picture" />
+      <br><br>
+      <button type="button" name="clearform">Clear Form</button>
+      <button type="button" name="Add New User"> Add New User</button>
+
+    </form>
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Create User</title>
+  </head>
+  <body>
+    <h1>Create User</h1>
+    <hr>
+    <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+      <fieldset>
+      <legend> User Form</legend>
+      <label for="username">Username</label>
+      <input type="text" name="username" placeholder="username" size="30" maxlength="12">
+      <label for="password">Password</label>
+
+      <input type="password" name="password" placeholder="password" size="30" maxlength="8">
+      <!-- Superhero -->
+      <br>
+      <label for="superhero">Select your favorite superhero:</label><br>
+      <input type="radio" name="superhero" value="superman" > Superman <br>
+      <input type="radio" name="superhero" value="batman" checked="checked"> Batman <br>
+      <input type="radio" name="superhero" value="wonderwoman" > Wonder Woman <br>
+      <input type="radio" name="superhero" value="flash" > Flash <br>
+      <input type="radio" name="superhero" value="thor" > Thor <br>
+      <input type="radio" name="superhero" value="hulk" >Hulk <br>
+    <!-- Videogame -->
+    <label for="videogame">Select your favorite videogame </label> <br>
+    <input type="checkbox" name="videogame" value="fifa" checked="checked" > Fifa
+    <input type="checkbox" name="videogame" value="uncharted" checked="checked"> Uncharted
+    <input type="checkbox" name="videogame" value="residentevil"> Resident Evil
+    <input type="checkbox" name="videogame" value="NHL"> NHL
+    <br>
+    <!-- Hidden Input -->
+    <input type="hidden" name="userid" value="2300" >
+    <!-- Image Button -->
+    <br>
+    <input type="image" src="img/register_button.png" style="width:200px">
+    </fieldset>
+
+
+
+    </form>
+
+  </body>
+</html>

@@ -1,0 +1,29 @@
+table, th, td {
+  border: 1px solid #e8eaef;
+  border-collapse: collapse;
+}
+
+table{
+width: 90%;
+text-align: center;}
+
+thead > tr {
+  color: #ffffff;
+  background:#2a4c4c;
+  font-weight: bold;
+}
+
+tbody > tr td:first-child {
+  background: #f7f9fa;
+}
+
+tbody > tr td:nth-child(3){
+  text-align: left;
+}
+th{
+height: 60px;
+}
+
+td {
+  height: 40px;
+}

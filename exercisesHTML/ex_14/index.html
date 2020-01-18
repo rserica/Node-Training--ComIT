@@ -1,0 +1,86 @@
+<!-- Exercise 14
+Copy and paste the folder from exercise 12
+index.html
+Add the following inputs to the current form:
+Add a Date input so the user can select his birthday
+Add a Email input
+Add a your site URL input
+The submit button must be at the bottom of the form
+Create a new form that only has a Search input and a submit button with the text search
+The form action must point to google https://www.google.ca/search
+The search input name must be q
+By submiting the form you'll get a URL like: https://www.google.ca/search?q=YOUR_SEARCH_VALUE
+All new inputs must have a label element with the for attribute configured
+All new inputs must have a name attribute to describe the value the user will input -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Create User</title>
+  </head>
+  <body>
+    <h1>Create User</h1>
+    <hr>
+    <form  action="index.html" method="get">
+      <label for="name">Name: </label>
+      <input type="text" name="name" placeholder="name">
+      <br>
+      <br>
+      <label for="movies">Choose a Movie:</label>
+      <select  name="movies">
+        <option  value="deadpool">Deadpool </option>
+        <option  value="batman_vs_superman">Batman v Superman </option>
+        <option  value="civil_war">Captain America: Civil War </option>
+        <option  value="doctor_strange">Doctor Strange </option>
+        <option  value="suicide_squad">Suicide Squad </option>
+        <option  value="apocalypse">X-Men: Apocalypse </option>
+        <option  value="gotg_vol2">Guardians of the Galaxy Vol 2 </option>
+        <option  value="justice_league">Justice League </option>
+        <option  value="logan">Logan </option>
+        <option  value="homecomingr">Spider-Man: Homecoming</option>
+        <option  value="wonder_woman" selected >Wonder Woman  </option>
+        <option  value="thor_ragnarok">Thor: Ragnarok </option>
+        <option  value="black_panther"> Black Panther </option>
+      </select>
+      <br>
+      <br>
+      <label for="birthday:">Birthday: </label>
+      <input type="date" name="birthday"/>
+      <br>
+      <br>
+      <label for="email">Email: </label>
+      <input type="email" name="email" />
+      <br>
+      <br>
+      <label for="url">Do you have a website?</label>
+      <input type="url" name="url">
+      <br>
+      <br>
+      <label for="bio">Write your BIO here:</label>
+      <br>
+      <textarea name="bio" rows="20" cols="100" placeholder="Write here yout BIO"></textarea>
+      <br>
+      <br>
+      <br>
+      <label for="picture">Picture:</label>
+      <input type="file" name="picture" />
+      <br><br>
+      <button type="button" name="clearform">Clear Form</button>
+      <button type="button" name="Add New User"> Add New User</button>
+    </form>
+    <br>
+    <br>
+    <form class="search" action="https://www.google.ca/search" method="get">
+      <label for="q">What are you looking for?</label>
+      <input type="search" name="q" placeholder="What are you looking for?"/>
+      <button type="submit" name="submit">Submit</button>
+    </form>
+
+
+
+
+
+
+
+  </body>
+</html>

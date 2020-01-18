@@ -1,0 +1,30 @@
+/*
+Add a style element
+Use the universal selector to make all the elements text look green
+Select the element with the id login and make the text gray
+Select all the elements with the class red and make the text red
+Select the label and input selector (combined) and make the text pink
+Select the input type submit using the attribute selector and make the text brown
+*/
+
+* {
+  color: green;
+}
+
+#login {
+  color: gray;
+}
+
+.red {
+  color:red;
+}
+
+label, input {
+  color: pink;
+}
+
+
+input[type="submit"]
+{
+  color: brown;
+}

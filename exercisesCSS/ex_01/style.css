@@ -1,0 +1,23 @@
+/*
+Add a style element
+All h1 element must be pink
+All paragraphs must be green
+All divs must be yellow
+All links must be black
+ */
+
+
+ h1 {
+   color:pink;
+ }
+
+ p {
+ color: green;
+}
+
+div {
+  color: yellow;
+}
+
+a
+{ color: black; }

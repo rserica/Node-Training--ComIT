@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Source+Sans+Pro");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Source Sans Pro", Sans-Serif;
+  background: #F3F3F3; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "Playfair Display", Serif; }
+
+.wrapper {
+  position: relative;
+  display: block; }
+  .wrapper .news_info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999; }
+    .wrapper .news_info .category {
+      display: block;
+      text-align: center;
+      background: pink;
+      color: #ffffff; }
+    .wrapper .news_info .title {
+      color: white;
+      font-size: 1.5em; }
+    .wrapper .news_info .featured_new .title {
+      font-size: 2em; }
+
+/*# sourceMappingURL=style.css.map */

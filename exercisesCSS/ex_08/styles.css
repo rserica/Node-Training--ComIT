@@ -1,0 +1,55 @@
+/* Add a style element
+Select all elements using the universal selector and add the following CSS properties:
+Border width must be 1px
+Border style must be solid
+We set default values for all elements
+Select the html element and add the following CSS properties:
+Border color must be purple
+Select the body element and add the following CSS properties:
+Border color must be red
+Select all div elements and add the following CSS properties:
+Border color must be blue
+Select all paragraph elements and add the following CSS properties:
+Border width must be 2px
+Border color must be green
+Select all span elements and add the following CSS properties:
+Border width must be 3px
+Border color must be brown
+Border style must be dotted
+Select all link elements and add the following CSS properties:
+Border width must be 2px
+Border color must be coral
+Border style must be dashed
+Select all elements with the class radius and add the following CSS properties:
+Border width must be 2px
+Border color must be orange
+Border raduis must be 20px for all corners */
+
+* {
+  border: 1px solid;
+  margin: 10px;
+}
+html {
+  border-color: purple;
+}
+
+body {
+  border-color: red;
+}
+
+div {
+  border-color: blue;
+}
+p {
+  border: 2px green;
+}
+span {
+  border: 3px brown dotted;
+}
+a {
+  border: 2px coral dashed;
+}
+.radius {
+  border: 2px orange solid;
+  border-radius: 20px;
+}

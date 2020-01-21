@@ -1,0 +1,31 @@
+/*  Select the body element and apply the following style:
+        Use Arial, Helvetica, sans-serif as font family
+        Use the pattern.jpg as background image
+        The image must repet in x and y axis
+        Top and bottom margin must be 20px, left and right set them to 0
+        Remove padding from all sides */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(pattern.png);
+  background-repeat: repeat;
+  margin: 20px 0px;
+  padding: 0;
+}
+
+/* Select the elements with the main class and apply the following style:
+        Background color must be white
+        The element must be 960px wide
+        Remove top and bottom margin
+        Center the element using margin auto
+        Add 20px padding to all sides
+        Add 10px of border radius
+        Use the following box shadow values 0 10px 6px -6px #777 */
+.main {
+  background: white;
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 6px -6px #777;
+}

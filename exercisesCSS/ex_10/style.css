@@ -1,0 +1,109 @@
+
+/* Select the body element and apply the following styles:
+      All margin sides must be set to 0
+      All padding sides must be set to 0
+      The background color must be white
+      Use Arial or Helvetica or sans-serif as font family
+      Font size must be 16 pixels */
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/* Select the header element and apply the following styles:
+      The background color must be black
+      Font color must be white
+      Top and bottom padding must be 10 pixels
+      Right and Left padding must be 20px */
+header {
+  background: black;
+  color: white;
+  padding: 10px  20px;
+}
+
+/* Select the h2 element that's inside the header elemetn and apply the following styles:
+All margin sides must be set to 0
+Use text shadow with this configuration: 1px 2px 3px #666 */
+
+header h2 {
+  margin: 0;
+  text-shadow: 1px 2px 3px #666;
+}
+
+/* Select all elements with the main class and apply the following styles:
+All padding sides must be set to 20 pixels */
+
+.main {
+  padding: 20px;
+}
+/* Select the parragraphs that are children of the main class elements and apply the following styles:
+    The text must be justify aligned */
+.main  p {
+  text-align: justify;
+}
+
+/* Select the elements with the overflow class and apply the following styles:
+    The box must be 150 pixels tall
+    The content of this element must be scrollable only over the y axis */
+.overflow {
+  height: 150px;
+  overflow-y: scroll;
+}
+
+/* Select the footer element and apply the following styles:
+    The background color must be black
+    All padding sides must be set to 10 pixels
+    The text must be center aligned */
+footer {
+  background: black;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Select all link elements that are children of the footer element and apply the following styles:
+    Text must be white
+    Remove the undeline decoration
+    Text size must be 1.2em
+    The right border must be 1px solid white
+    Right margin must be 10 pixels
+    Right Padding must be 10 pixels */
+
+footer > a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-right: 1px solid white;
+  padding-right: 10px;
+}
+
+/* Select all links and use the hover pseudo class and apply the following styles:
+    Text color must be gray
+    Text decoration must be underline
+    Also it must be bold */
+footer > a:hover {
+  color: gray;
+  text-decoration: underline;
+  font-weight: bold;
+}
+ /* Select the last link element using the last-child selector and apply the following styles:
+    Remove the right border */
+
+  footer > a:last-child {
+    border-right: 0px;
+  }
+
+  /* Select the elements with the news class and apply the following styles:
+    Top margin must be 20 pixels tall
+    The box should have the following shadow configuration: 0px 5px 10px 5px rgba(0,0,0,0.1)
+    Top and bottom padding must be 5 pixels
+    Right and left padding must be 10 pixels */
+
+.news {
+  margin-top: 20px;
+  box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.1);
+  padding: 10px 5px;
+
+}

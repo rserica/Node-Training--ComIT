@@ -1,0 +1,37 @@
+/* Select the body element and apply the following style:
+Use Arial, Helvetica, sans-serif as font family */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Select the article elements and apply the following style:
+Use 1px solid gray for all sides border */
+
+article {
+  border: 1px solid gray;
+}
+
+/*  Select the article with the hidden class and apply the following style:
+        Background color must be #ddd */
+article.hidden {
+  background: #ddd;
+}
+
+/* Select the article with the remove class and apply the following style:
+        Background color must be #999  */
+article.remove {
+  background: #999;
+}
+
+/* Select the h1 element inside the article with the class hidden and apply the followinig style:
+        Visibility must be hidden */
+article.hidden h1 {
+  visibility: hidden;
+}
+
+/* Select the h1 element inside the article with the class remove and apply the followinig style:
+        Change the display property to be none */
+article.remove h1 {
+  display: none;
+}

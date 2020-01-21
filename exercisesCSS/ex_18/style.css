@@ -1,0 +1,100 @@
+/* Select the form element and apply the following style:
+      Background color must be #eee
+      Use the following configuration for all borders: 1px solid #ddd
+      Use Arial, Helvetica, sans-serif as font family
+      Font size must be 16px
+      Make this element 540px wide
+      Center this element using margin auto for left and right sides
+      Add 20px padding to the top and bottom sides
+      Add 40px padding to the left and right sides
+      Font color must be #1abc9c */
+
+form {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  width: 540px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  color: #1abc9c;
+}
+/* Select the h1 element and apply the following style:
+      Remove margin from all sides
+      Add 40px to the bottom margin only */
+h1 {
+  margin: 0px 0px 40px 0px;
+}
+
+/* Select the fieldset elements and apply the following style:
+      Remove border from all sides
+      Remove padding from all sides
+      Add 10px only for top and bottom margin
+      Remove the left and right margins */
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 10px 0px;
+}
+
+/* Select the label elements and apply the following style:
+      Display must be inline block
+      Make this element 80px wide
+      Add 20px padding only to the right side */
+
+label {
+  display: inline-block;
+  width: 80px;
+  padding-right: 20px;
+}
+
+/* Select the input type text, input type password and textarea elements and apply the following styles:
+      Display must be inline block
+      Make this elements 417px wide
+      Add 0.5em padding to all sides
+      Font size must be 16px
+      Add a 1px solid #ddd border to all sides
+      Font color must be gray
+      Add the outline-color property with the value #1abc9c */
+input[type="text"], input[type="password"]{
+  display: inline-block;
+  width: 417px;
+  padding: 0.5px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  font-color: gray;
+  outline-color: #1abc9c;
+}
+
+/* Select the textarea element and apply the following style:
+        Vertical align this element to the middle of the text */
+textarea {
+  vertical-align:middle;
+  width:417px;
+  padding: 0.5px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  font-color: gray;
+  outline-color: #1abc9c;
+}
+
+/* Select the input type submit element and apply the following style:
+        Display must be block
+        Add the following padding: 19px 39px 18px 39px
+        Font color must be white
+        Background color must be #1abc9c
+        Font size must be 18px
+        Center align the text
+        Make this element 100% wide
+        Add the following border configuration 1px solid #16a085 */
+input[type="submit"] {
+  display: block;
+  padding: 19px 39px 18px 39px;
+  color: white;
+  background: #1abc9c;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #16a085;
+}

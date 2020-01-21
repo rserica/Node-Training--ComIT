@@ -17,6 +17,10 @@ a:hover {
   color: orange;
 }
 
+a:last-child {
+  color: yellow;
+}
+
 a:visited {
   color: purple;
 }

@@ -1,0 +1,85 @@
+/*
+Add a style element
+
+Refresh the browser on each style change to see how it works */
+
+
+/* * {
+  margin: 10px;
+} */
+/* Select the body element and apply the following styles:
+  Add a black 1px solid border
+  Add margin 0 to all sides
+  Add padding 0 to all sides */
+
+
+  body {
+    border: black 1px solid;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+/* Select all div elements and apply the following styles:
+    Add a red 1px solid border
+    Padding must be 10px for all sides
+    Margin must be 10px for all sides */
+div {
+  border: red 1px solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Select all span elements and apply the following styles:
+    Add a orange 1px solid border
+    Padding must be 10px for all sides
+    Margin must be 10px for all sides */
+span {
+    border: orange 1px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Update body element selector style:
+/* Select all elements with the box class and apply the following styles:
+Set the width property to 300px
+Set the height property to 100px */
+.box {
+  width: 300px;
+  height: 100px;
+}
+
+/* Select all elements with the min class and apply the following styles:
+Set the min width property to 100px
+Set the min height property to 10px */
+.min {
+  width: 100px;
+  height: 10px;
+}
+
+/* Select all elements with the max class and apply the following styles:
+Set the max width property to 200px
+Set the max height property to 40px */
+.max {
+  max-width: 200px;
+  max-height: 40px;
+
+}
+/* Select all elements with the center class and apply the following styles:
+Set the width property to 300px
+Set margin value to auto for all sides */
+.center {
+  width: 300px;
+  margin: auto;
+}
+
+/* Select all elements with the inline-center class and apply the following styles:
+Set the text-align value to center
+At this point you should be able to see the difference between inline and block elements */
+
+.inline-center {
+  text-align: center;
+
+}
+/* Also you can see how horizontal aligment work for block and inline elements
+Take your time to review the code, try each style on it own  */

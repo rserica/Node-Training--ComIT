@@ -1,0 +1,35 @@
+/* Select the body element and apply the following style:
+        Use Arial, Helvetica, sans-serif as font family
+        Background color must be #252525
+        Remove all margin sides
+        Remove all padding sides */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #252525;
+  margin: 0;
+  padding: 0;
+}
+
+/* Select the h1 element and apply the following style:
+        Remove all margin sides */
+h1 {
+  margin: 0;
+}
+
+/* Select the element with the main class and apply the following style:
+        Background color must be white
+        Use the pattern.png as background image
+        Repeat the background image only on the x axis
+        The background must be positioned using the left and bottom value
+        Add 50px padding to all sides
+        Override the bottom padding and set the value to 300px */
+.main {
+  /* background-color: white;
+  background-image: url(pattern.png);
+  background-repeat: repeat-x;
+  background-position:bottom; */
+  padding: 50px;
+  padding-bottom: 300px;
+
+  background: white url(pattern.png) repeat-x bottom;
+}

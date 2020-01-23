@@ -1,0 +1,78 @@
+/* Select the container class element and apply the following style:
+      Position must be relative
+      Background must be linear-gradient(180deg, #666, #ddd)
+      Add a 2px solid #ccc border to all sides
+      Make the element 700px tall */
+.container {
+  position: relative;
+  background: linear-gradient(180deg, #666, #ddd);
+  border: 2px solid #ccc;
+  height: 700px;
+}
+
+/* Select the div element that are children of the container class element and apply the following style:
+Position must be absolute
+        Use Arial, Helvetica, sans-serif as font family
+        Font color must be white
+        Font size must be 80px
+        Make the font bold
+        Add text shadow using the following value 3px 6px 5px #000 */
+.container > div {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 3px 6px 5px #000;
+}
+
+/*
+Select the one class elements and apply the following style:
+        Bottom must be 0
+        Right must be 0 */
+.one {
+  bottom: 0;
+  right: 0;
+  }`
+
+/* Select the two class elements and apply the following style:
+        Top must be 450px
+        Left must be 40% */
+.two {
+  top: 450px;
+  left: 50%;
+}
+
+/* Select the three class elements and apply the following style:
+        Top must be 300px
+        Left must be 40% */
+.three {
+  top: 350px;
+  left: 40%;
+}
+
+/* Select the four class elements and apply the following style:
+        Top must be 200px
+        Left must be 30% */
+.four {
+  top: 200px;
+  left: 30%;
+}
+
+/* Select the five class elements and apply the following style:
+        Top must be 100px
+        Right must be 0 */
+.five {
+  top: 100px;
+  right: 0;
+}
+
+/* Select the six class elements and apply the following style:
+        Top must be 0
+        Left must be 0 */
+.six {
+  top: 0;
+  left: 400px;
+}
+
+/* Change the values for each one to six class elements, try left, top, bottom and right */

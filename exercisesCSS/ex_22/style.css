@@ -1,0 +1,129 @@
+/* Select the body element and apply the following style:
+        Remove margin from all sides
+        Add 50px padding to the top side
+        Remove left, right and bottom padding sides
+        Use Arial, Helvetica, sans-serif as font family
+        Add the following property and value: white-space: nowrap MDN white-space doc */
+
+body {
+  margin: 0;
+  padding: 50px 0px 0px 0px;
+  font-family: Arial,Helvetica, sans-serif;
+  white-space: nowrap;
+}
+
+/* Select the nav element and apply the following style:
+        Position must be fixed
+        Top must be 0
+        Left must be 0
+        Right must be 0
+        Background color must be #be2c2c
+        Add 10px to top and bottom padding and 20px to left and bottom sides
+        Remove all margin sides
+        Use the following configuration for box shadow: 0 2px 1px #777 */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0
+  right: 0;
+  background: #be2c2c;
+  padding: 10px 20px;
+  margin:0;
+  box-shadow: 0 2px 1px #777;
+  /* precisei colocar  */
+  width: 100%;
+}
+
+
+/* Select the link elements that are children of the nav element and apply the following style:
+        Font color must be white
+        Remove text decoration
+        Font size must be 16px;
+        Diplay must be inline-block
+        Add 10px margin to the rigth side only */
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+/* Select the hover pseudoclass for link elements that are children of the nav element and apply the following style:
+        Use the following configuration for text shadow: 0px 1px 5px #444; */
+nav a:hover {
+  text-shadow: 0px 1px 5px #444;
+}
+
+/* Select the last link element that is children of the nav element and apply the following style:
+        Remove margin from all sides */
+nav a:last-child {
+  margin: 0;
+}
+
+/* Select the div elements that are direct children (element > children) of the nav element and apply the following style:
+        Display must be inline-block */
+nav > div {
+  display: inline-block;
+
+}
+
+
+/* Select the div element that has the links class and that it's children of the nav element and apply the following style:
+        Make the element 90% wide
+        Rigth align text */
+nav > div.links {
+  width: 90%;
+  text-align: right;
+
+}
+
+
+/* Select the div element that has the home class and that it's children of the nav element and apply the following style:
+        Make the element 10% wide
+        Use the following text shadow configuration: 0px 1px 5px #444 */
+nav > div.home {
+  width: : 10%;
+  text-shadow:  0px 1px 5px #444;
+}
+/* Select the link elements that are children of the div with the class home and that is children of the nav element and apply the following style:
+        Font size must be 24px */
+nav > div.home  a {
+  font-size: 24px;
+}
+
+
+/* Select the element with the main class and apply the following style:
+        Font size must be 16px
+        Remove top and bottom padding, then add 20px for left and right sides
+        Add the following property and value: white-space: normal
+        Justify the text by using the text align property */
+.main {
+  font-size: 16px;
+  padding: 0 20px;
+  white-space: normal;
+  text-align: justify;
+}
+
+/* Select the h1 element that are children of the element that has the main class and apply the following style:
+        Font color must be #be2c2c */
+.main h1 {
+  color:#be2c2c;
+}
+/* Select the footer element and apply the following style:
+      Background color must be #be2c2c
+      Font color must be white
+      Add 20px padding to all sides
+      Center align the text using the text align property
+      Use the following configuration for text shadow: 0px 1px 5px black
+      Add 50px margin only to the top side */
+  footer {
+    background: #be2c2c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0px 1px 5px black;
+    margin-top: 50px;
+  }

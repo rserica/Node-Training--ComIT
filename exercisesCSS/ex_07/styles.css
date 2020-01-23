@@ -9,14 +9,16 @@ Happy Coding! */
 p > img {
   vertical-align: super;
 }
-
 button > img {
   vertical-align: top;
 }
-
-.top  {
+.top {
   vertical-align: top;
 }
 
-.middle { vertical-align: middle;}
-.bottom {vertical-align: bottom;}
+.middle {
+  vertical-align: middle;
+}
+.bottom {
+  vertical-align: bottom;
+}

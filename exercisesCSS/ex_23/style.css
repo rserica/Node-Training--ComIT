@@ -1,0 +1,69 @@
+/* Select the body element and apply the following style:
+      Remove padding and margin from all sides
+      Use Arial, Helvetica, sans-serif as font family
+      Font color must be white */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/* Select all div elements and apply the following style:
+      Position must be sticky
+      Top must be 0
+      Make the element 100vh tall
+      Use the property background-size: cover Read more about this property in the MDN background-size doc
+      Background position must be center center
+      Add a 1px solid lightblue border to all sides */
+div {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid lightblue;
+}
+
+/* Select the h1 elements and apply the following style:
+Use 2px 4px 3px rgba(0,0,0,0.3) as text shadow
+Center text using text align */
+h1 {
+   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+   text-align: center;
+}
+
+
+/* Select the elements with the one class and apply the following style:
+Background image must be back1.png */
+.one {
+  background-image: url(back1.png);
+}
+
+/* Select the elements with the two class and apply the following style:
+Background image must be back2.png */
+.two {
+  background-image: url(back2.png);
+}
+
+/* Select the elements with the three class and apply the following style:
+Background image must be back3.png */
+.three {
+  background-image: url(back3.png);
+}
+
+/* Select the elements with the four class and apply the following style:
+Background image must be back4.png */
+.four {
+  background-image: url(back4.png);
+}
+
+/* Select the elements with the five class and apply the following style:
+Background image must be back5.png */
+.five {
+  background-image: url(back5.png);
+}
+
+/* Select the elements with the six class and apply the following style:
+Background image must be back6.png */
+.six {
+  background-image: url(back6.png);
+}

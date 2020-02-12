@@ -7,3 +7,15 @@
 // and so on..
 // Show the following output for each element:
 // index: 1, original number: 1, incremented value: 11
+
+
+let numbers = [];
+
+for (i=0;i<=1000; i++){
+  numbers[i]=i;
+}
+
+let newnumbers = numbers.map(function(num, index){
+  console.log(`index: ${index}, original number:${index}, incremeted value: ${num+10}`);
+  return num+10;
+});

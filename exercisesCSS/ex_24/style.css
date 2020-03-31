@@ -1,0 +1,74 @@
+/* Add a style element
+Select the body element and apply the following style:
+Remove top and bottom padding and add 20px to left and right sides
+Remove margins from all sides
+Use Arial, Helvetica, sans-serif as font family
+Font size must be 16px  */
+body {
+  padding: 0px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px;
+}
+
+/* Select the h1 elements and apply the following style:
+Text color must be #f47933 */
+h1 {
+  color: #f47933;
+}
+/* Select all paragraph elements and apply the following style:
+Text must be justify aligned */
+p {
+  text-align: justify;
+}
+
+
+/* Select the img elements and apply the following style:
+Use 2px solid transparent as border value for all sides
+Add 20px margin for all sides
+Add a 5px border radius to all corners
+Add 10px padding to all sides */
+img {
+  border: 2px solid transparent;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+/* Select the img element that has the left class and apply the following styles:
+Element must float to the left */
+img.left{
+  float: left;
+}
+
+
+/*Select the img element that has the right class and apply the following styles:
+Element must float to the right */
+img.right {
+  float: right;
+}
+
+
+/* Select the elements with the html class and apply the following styles:
+Border color must be #f47933
+Use 0 3px 2px #f47933 as box shadow */
+.html {
+  border-color: #f47933;
+  box-shadow: 0 3px 2px #f47933;
+}
+
+/* Select the elements with the css class and apply the following styles:
+Border color must be #008fd5
+Use 0 3px 2px #008fd5 as box shadow */
+.css {
+  border-color: #008fd5;
+  box-shadow: 0 3px 2px #008fd5;
+}
+
+/* Select the elements with the js class and apply the following styles:
+Border color must be #f99d34
+Use 0 3px 2px #f99d34 as box shadow */
+.js {
+  border-color: #f99d34;
+  box-shadow: 0 3px 2px #f99d34;
+}

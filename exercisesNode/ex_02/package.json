@@ -1,0 +1,15 @@
+{
+  "name": "ex_02",
+  "version": "1.0.0",
+  "description": "Exercise 02",
+  "main": "index.js",
+  "scripts": {
+    "test": "Running Exercise 02",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
